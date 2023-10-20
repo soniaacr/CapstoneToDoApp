@@ -46,7 +46,7 @@ const Auth = () => {
               <div className="auth-container-box">
                 <form>
                 <h1 className="trendy">Trendy Tasks ToDo App</h1>
-                  <h2>{isLogIn  ? 'Please log in' : 'Please sign up!'}</h2>
+                  <h2 className="please">{isLogIn  ? 'Please log in' : 'Please sign up!'}</h2>
                   <input
                     type="email"
                     placeholder="email"
